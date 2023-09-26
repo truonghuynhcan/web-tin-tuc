@@ -1,5 +1,5 @@
 <?php
-  const DB_HOST = 'truonghuynhcan.id.vn';
+  const DB_HOST = 'truonghuynhcan2.shop';
   const DB_USERNAME = 'fifqrvy41ga2_webtintuc';
   const DB_PASSWORD = "canWPPR2004@";
   const DB_NAME = "fifqrvy41ga2_webtintuc";
