@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 RewriteEngine on
 AddDefaultCharset UTF-8
 Options -Indexes
@@ -10,4 +11,18 @@ RewriteRule ^du-lich/$ index.php?page=tintrongloai&idLT=3 [L]
 RewriteRule ^bv/(.*).html$ index.php?page=tinchitiet&slug=$1
 RewriteRule ^loai/(.*)/(.*)/$  index.php?page=tintrongloai&slug=$1&currentPage=$2 [L]
 RewriteRule ^loai/(.*)/$  index.php?page=tintrongloai&slug=$1&currentPage=1  [L]
+=======
+RewriteEngine on
+AddDefaultCharset UTF-8
+Options -Indexes
+
+RewriteRule ^lien-he/$ index.php?page=lienhe [L]
+RewriteRule ^dang-ky/$ index.php?page=dangky [L]
+RewriteRule ^song-dep/$ index.php?page=tintrongloai&idLT=12 [L]
+RewriteRule ^du-lich/$ index.php?page=tintrongloai&idLT=3 [L]
+
+RewriteRule ^bv/(.*).html$ index.php?page=tinchitiet&slug=$1
+RewriteRule ^loai/(.*)/(.*)/$  index.php?page=tintrongloai&slug=$1&currentPage=$2 [L]
+RewriteRule ^loai/(.*)/$  index.php?page=tintrongloai&slug=$1&currentPage=1  [L]
+>>>>>>> 42f6431163bd0b26445e30a1a28c1de84d5f79a7
 RewriteRule ^timkiem/(.*)/$  index.php?page=search&tukhoa=$1 [L]
